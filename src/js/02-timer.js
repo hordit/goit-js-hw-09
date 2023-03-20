@@ -55,6 +55,7 @@ start() {
     }
     const timeUpated = convertMs(deltaTime);
     updateTimer(timeUpated);
+    startBtn.disabled = true;
    }, INTERVAL_DELAY);
  },
 };
